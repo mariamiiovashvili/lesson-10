@@ -1,0 +1,30 @@
+@media (max-width: 800px) {
+    .header-nav {
+        display: none;
+    }
+    .footer-div {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 50px;
+    }
+    .header-container {
+        align-items: center;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+        
+    }
+    .container form {
+        padding-left: 0px;
+    }
+    .footer-container,
+    .background,
+    .header-container {
+        width: 90%;
+    }
+    
+}
